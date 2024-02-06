@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          I am a healthcare professional with a strong aspiration to transition into the technology industry. My current focus lies in the emerging field of extended reality (XR) and I foresee significant growth within this industry in the coming years. To equip myself for this opportunity, I have dedicated myself to learning skills in augmented reality and virtual reality using C# on the Unity platform. 
+          I am a healthcare professional with a strong aspiration to transition into the technology industry. My current focus lies in the emerging field of extended reality (XR) and I foresee significant growth within this industry in the coming years. To equip myself for this opportunity, I have been learning augmented reality and virtual reality skills such as C# and Unity. 
 
         
           I am also interested in Machine Learning projects, mostly centered around health applications, utilizing Python and Jupyter Notebooks.

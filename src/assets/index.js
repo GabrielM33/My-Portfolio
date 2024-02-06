@@ -45,6 +45,7 @@ import website from "./tech/Website.png";
 import hospital from "./tech/hospital.jpg";
 import room from "./tech/Room.png";
 import card from "./tech/Card.png";
+import beatsaber from "./tech/beatsaber.png";
 
 import aws from "./tech/aws.png";
 import meta from "./company/meta.png";
@@ -110,4 +111,5 @@ export {
   hospital,
   room,
   card,
+  beatsaber,
 };

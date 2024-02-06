@@ -48,6 +48,7 @@ import {
   hospital,
   room,
   card,
+  beatsaber,
 } 
 
 from "../assets";
@@ -69,24 +70,35 @@ export const navLinks = [
 
 const services = [
   {
-    title: "XR Developer",
-    icon: web,
+    title: "Unity Developer",
+    icon: mobile,
   },
   {
-    title: "ML Developer",
-    icon: mobile,
-  }
+    title: "Python Developer",
+    icon: web,
+  },
 ];
 
 const technologies = [
   {
-    name: "Python",
-    icon: python,
-  },
-  
+    name: "Unity",
+    icon: unity,
+  }, 
   {
     name: "C",
     icon: c,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "aws",
+    icon: aws,
   },
   {
     name: "sql",
@@ -95,18 +107,6 @@ const technologies = [
   {
     name: "Jupyter",
     icon: jupyter,
-  },
-  {
-    name: "Unity",
-    icon: unity,
-  },
-  {
-    name: "aws",
-    icon: aws,
-  },
-  {
-    name: "git",
-    icon: git,
   },
 ];
 
@@ -136,7 +136,7 @@ const experiences = [
     ],
   },
   {
-    title: "Introduction to SQL",
+    title: "Introduction to SQL Certificate",
     company_name: "Sololearn",
     icon: sololearn,
     iconBg: "#FFFFFF",
@@ -146,7 +146,7 @@ const experiences = [
     ],
   },
   {
-    title: "Foundations: Data, Data, Everywhere",
+    title: "Foundations: Data, Data, Everywhere Certificate",
     company_name: "Google",
     icon: google,
     iconBg: "#FFFFFF",
@@ -156,7 +156,7 @@ const experiences = [
     ],
   },
   {
-    title: "Tech for Everyone",
+    title: "Tech for Everyone Certificate",
     company_name: "Sololearn",
     icon: sololearn,
     iconBg: "#FFFFFF",
@@ -166,7 +166,7 @@ const experiences = [
     ],
   },
   {
-    title: "Introduction to Python",
+    title: "Introduction to Python Certificate",
     company_name: "Soloearn",
     icon: sololearn,
     iconBg: "#FFFFFF",
@@ -176,7 +176,7 @@ const experiences = [
     ],
   },
   {
-    title: "Introduction to Generative AI",
+    title: "Introduction to Generative AI Certificate",
     company_name: "Google",
     icon: google,
     iconBg: "#FFFFFF",
@@ -186,7 +186,7 @@ const experiences = [
     ],
   },
   {
-    title: "Python Intermediate",
+    title: "Python Intermediate Certificate",
     company_name: "Sololearn",
     icon: sololearn,
     iconBg: "#FFFFFF",
@@ -196,7 +196,7 @@ const experiences = [
     ],
   },
   {
-    title: "Introduction to Machine Learning on AWS",
+    title: "Introduction to Machine Learning on AWS Certificate",
     company_name: "Amazon Web Services",
     icon: aws,
     iconBg: "#FFFFFF",
@@ -205,6 +205,7 @@ const experiences = [
       "Gained proficiency platforms such as Rekognition and SageMaker, among others."
     ],
   },
+  /*
   {
     title: "Machine Learning Specialization",
     company_name: "DeepLearning.AI & Stanford",
@@ -217,16 +218,17 @@ const experiences = [
       "Unsupervised Learning and Recommenders.",
     ],
   },
+  */
   {
-    title: "Unity Junior Programmer",
+    title: "Unity VR Development Certificate",
     company_name: "Unity",
     icon: unity,
     iconBg: "#FFFFFF",
-    date: "Current",
+    date: "Nov 2023",
     points: [
-      "Game Development.",
-      "Debugging.",
-      "Code Optimization.",
+      "Events and Interaction.",
+      "Ergonomics and Optimization.",
+      "Custom VR Development.",
     ],
   },
 ];
@@ -259,6 +261,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Beat Saber Clone",
+      description:
+      " This is project is designed to simulate the mechanics of Beat Saber. The game provides insights into the development process and the intricate design elements that make virtual reality gaming captivating.",
+      tags: [
+        {
+          name: "VR",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: beatsaber,
+      source_code_link: "https://github.com/GabrielM33/Beat-Saber-Clone",
+  },
   {
     name: "AR Business Card",
     description:
@@ -300,27 +323,6 @@ const projects = [
     ],
     image: room,
     source_code_link: "https://github.com/GabrielM33/VR-Room",
-  },
-  {
-    name: "Highway Hurdle",
-      description:
-        "Prepare for nonstop excitement in 'Highway Hurdle,' an endless car game where you navigate a relentless obstacle course, testing your reflexes as you bump and dodge your way to high scores.",
-      tags: [
-        {
-          name: "3D",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "unity",
-          color: "green-text-gradient",
-        },
-        {
-          name: "csharp",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carchase,
-      source_code_link: "https://github.com/GabrielM33/Highway-Hurdle",
   },
 ];
 

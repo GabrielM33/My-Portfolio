@@ -28,7 +28,7 @@ const ProjectCard = ({
       >
         <div className='relative w-full h-[230px]'>
           <img
-            src={image
+            src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
