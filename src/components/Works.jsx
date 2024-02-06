@@ -88,13 +88,14 @@ const Works = () => {
         </motion.p>  
       </div>
       <motion.div variants={textVariant()} >
-        <h2 className={`mt-12 ${styles.sectionHeadText}`} style={{ fontSize: '40px' }}>Extended Reality.</h2>
+        <h2 className={`mt-12 ${styles.sectionHeadText}`} style={{ fontSize: '40px' }}></h2>
       </motion.div>
       <div className='mt-2 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      {/*
       <motion.div>
       <h2 className={`mt-12 ${styles.sectionHeadText}`} style={{ fontSize: '40px' }}>Machine Learning.</h2>
       </motion.div>
@@ -110,7 +111,8 @@ const Works = () => {
         {projects3.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
+      </div> 
+      */}
     </>
   );
 };

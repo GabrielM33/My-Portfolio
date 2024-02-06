@@ -49,6 +49,9 @@ import {
   room,
   card,
   beatsaber,
+  groovelab,
+  inventory,
+  swift,
 } 
 
 from "../assets";
@@ -74,39 +77,39 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Python Developer",
+    title: "Swift Developer",
     icon: web,
   },
 ];
 
 const technologies = [
   {
-    name: "Unity",
-    icon: unity,
-  }, 
-  {
     name: "C",
     icon: c,
+  },
+  {
+    name: "Swift",
+    icon: swift,
   },
   {
     name: "Python",
     icon: python,
   },
   {
-    name: "git",
-    icon: git,
+    name: "sql",
+    icon: sql,
   },
+  {
+    name: "Unity",
+    icon: unity,
+  }, 
   {
     name: "aws",
     icon: aws,
   },
   {
-    name: "sql",
-    icon: sql,
-  },
-  {
-    name: "Jupyter",
-    icon: jupyter,
+    name: "git",
+    icon: git,
   },
 ];
 
@@ -123,7 +126,7 @@ const experiences = [
       "Fostered lifelong learning aptitude.",
     ],
   },
-  {
+  /*{
     title: "Master of Business Administration",
     company_name: "University of the People",
     icon: uopeople,
@@ -134,8 +137,8 @@ const experiences = [
       "Attained an entrepeneurial mindset.",
       "In the process of acquiring strategic thinking abilities.",
     ],
-  },
-  {
+  }, */
+  /* {
     title: "Introduction to SQL Certificate",
     company_name: "Sololearn",
     icon: sololearn,
@@ -144,8 +147,8 @@ const experiences = [
     points: [
       "Acquired proficiency in SQL syntax through hands-on small-scale projects."
     ],
-  },
-  {
+  }, */
+  /* {
     title: "Foundations: Data, Data, Everywhere Certificate",
     company_name: "Google",
     icon: google,
@@ -154,7 +157,7 @@ const experiences = [
     points: [
       "Attained proficiency in data preprocessing and a deep understanding of the data analysis life cycle."
     ],
-  },
+  }, */
   {
     title: "Tech for Everyone Certificate",
     company_name: "Sololearn",
@@ -165,7 +168,7 @@ const experiences = [
       "Developed a comprehensive understanding of the web and the technology industry."
     ],
   },
-  {
+  /* {
     title: "Introduction to Python Certificate",
     company_name: "Soloearn",
     icon: sololearn,
@@ -174,7 +177,7 @@ const experiences = [
     points: [
       "Acquired proficiency in Python syntax through hands-on small-scale projects."
     ],
-  },
+  }, */
   {
     title: "Introduction to Generative AI Certificate",
     company_name: "Google",
@@ -262,33 +265,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Beat Saber Clone",
+    name: "Inventory Prototype",
       description:
-      " This is project is designed to simulate the mechanics of Beat Saber. The game provides insights into the development process and the intricate design elements that make virtual reality gaming captivating.",
+      "The game provides insights into the development process and the intricate design elements that make virtual reality gaming captivating.",
       tags: [
         {
-          name: "VR",
+          name: "visionos",
           color: "blue-text-gradient",
         },
         {
-          name: "unity",
+          name: "ios",
           color: "green-text-gradient",
         },
         {
-          name: "csharp",
+          name: "swift",
           color: "pink-text-gradient",
         },
       ],
-      image: beatsaber,
-      source_code_link: "https://github.com/GabrielM33/Beat-Saber-Clone",
+      image: inventory,
+      source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
   },
   {
-    name: "AR Business Card",
+    name: "GrooveLab",
     description:
-      "The Interactive AR Business Card redefines the traditional business card. This innovative digital business card seamlessly blends the physical and digital worlds, leaving a lasting impression on potential clients and contacts.",
+      "Unleash your inner drummer in GrooveLab, the Mixed Reality app that lets you rock out to drumless tracks on a simulated kit, in your living room or a virtual wonderland.",
     tags: [
       {
-        name: "AR",
+        name: "metasdk",
         color: "blue-text-gradient",
       },
       {
@@ -300,16 +303,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: card,
-    source_code_link: "https://github.com/GabrielM33/AR-Business-Card",
+    image: groovelab,
+    source_code_link: "https://github.com/GabrielM33/GrooveLab-MetaSDK",
   },
   {
     name: "VR Room",
     description:
-    "'VR Room' is an immersive virtual reality experience that transports you into an interactive living room. A world where you can leave reality behind and explore a digital realm with the comfort of home.",
+    "VR Room is a VR experience that transports you into an interactive living room. A world where you can leave reality and explore a digital realm with the comfort of home.",
     tags: [
       {
-        name: "VR",
+        name: "xrinteractiontoolkit",
         color: "blue-text-gradient",
       },
       {

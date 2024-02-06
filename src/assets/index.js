@@ -57,6 +57,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import groovelab from "./GrooveLabCoverPortfolio.png"
+import inventory from "./Inventory.png"
+import swift from "./tech/swift.png"
+
 export {
   logo,
   backend,
@@ -112,4 +116,7 @@ export {
   room,
   card,
   beatsaber,
+  groovelab,
+  inventory,
+  swift,
 };

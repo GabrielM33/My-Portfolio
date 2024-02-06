@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Gabriel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop XR applications for the Quest 3 and VisionPro using Unity <br className='sm:block hidden' />
+            I develop Spatial Computing/XR apps for VisionOS and Quest<br className='sm:block hidden' />
             
           </p>
         </div>
