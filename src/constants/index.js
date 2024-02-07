@@ -325,7 +325,7 @@ const projects = [
       },
     ],
     image: room,
-    source_code_link: "https://github.com/GabrielM33/VR-Room",
+    source_code_link: "https://github.com/GabrielM33/VRRoom-XRInteractionToolkit",
   },
 ];
 
