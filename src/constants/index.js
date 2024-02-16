@@ -52,6 +52,10 @@ import {
   groovelab,
   inventory,
   swift,
+  //docker,
+  docker1,
+  xcode,
+  xrbootcamp,
 } 
 
 from "../assets";
@@ -88,8 +92,16 @@ const technologies = [
     icon: c,
   },
   {
+    name: "Unity",
+    icon: unity,
+  }, 
+  {
     name: "Swift",
     icon: swift,
+  },
+  {
+    name: "Xcode",
+    icon: xcode,
   },
   {
     name: "Python",
@@ -98,14 +110,6 @@ const technologies = [
   {
     name: "sql",
     icon: sql,
-  },
-  {
-    name: "Unity",
-    icon: unity,
-  }, 
-  {
-    name: "aws",
-    icon: aws,
   },
   {
     name: "git",
@@ -168,16 +172,6 @@ const experiences = [
       "Developed a comprehensive understanding of the web and the technology industry."
     ],
   },
-  /* {
-    title: "Introduction to Python Certificate",
-    company_name: "Soloearn",
-    icon: sololearn,
-    iconBg: "#FFFFFF",
-    date: "Aug 2023",
-    points: [
-      "Acquired proficiency in Python syntax through hands-on small-scale projects."
-    ],
-  }, */
   {
     title: "Introduction to Generative AI Certificate",
     company_name: "Google",
@@ -199,6 +193,16 @@ const experiences = [
     ],
   },
   {
+    title: "SQL Intermediate Certificate",
+    company_name: "Soloearn",
+    icon: sololearn,
+    iconBg: "#FFFFFF",
+    date: "Oct 2023",
+    points: [
+      "Acquired proficiency in data storage with SQL through hands-on small-scale projects."
+    ],
+  },
+  /*{
     title: "Introduction to Machine Learning on AWS Certificate",
     company_name: "Amazon Web Services",
     icon: aws,
@@ -207,7 +211,7 @@ const experiences = [
     points: [
       "Gained proficiency platforms such as Rekognition and SageMaker, among others."
     ],
-  },
+  },*/
   /*
   {
     title: "Machine Learning Specialization",
@@ -229,9 +233,18 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Nov 2023",
     points: [
-      "Events and Interaction.",
-      "Ergonomics and Optimization.",
-      "Custom VR Development.",
+      "Worked on custom VR development, interaction, ergonomics and optimization.",
+    ],
+  },
+  {
+    title: "XR Foundations & Prototyping Bootcamp",
+    //role: "Community Mentor"
+    company_name: "XR Bootcamp",
+    icon: xrbootcamp,
+    iconBg: "#FFFFFF",
+    date: "Current",
+    points: [
+      "Community Mentor.",
     ],
   },
 ];
@@ -264,27 +277,6 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Inventory Prototype",
-      description:
-      "The game provides insights into the development process and the intricate design elements that make virtual reality gaming captivating.",
-      tags: [
-        {
-          name: "visionos",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ios",
-          color: "green-text-gradient",
-        },
-        {
-          name: "swift",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: inventory,
-      source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
-  },
   {
     name: "GrooveLab",
     description:
@@ -326,6 +318,27 @@ const projects = [
     ],
     image: room,
     source_code_link: "https://github.com/GabrielM33/VRRoom-XRInteractionToolkit",
+  },
+  {
+    name: "Inventory Prototype",
+      description:
+      "This project integrates iOS and VisionOS to create an inventory of items scanned with Object Capture. This inventory is then used to move real-life objects into spatial computing.",
+      tags: [
+        {
+          name: "visionos",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "swift",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: inventory,
+      source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
   },
 ];
 
@@ -383,7 +396,7 @@ const projects2 = [
           color: "blue-text-gradient",
         },
         {
-          name: "machinelearning",
+          name: "machinelearning",clear
           color: "green-text-gradient",
         },
         {

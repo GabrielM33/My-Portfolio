@@ -57,9 +57,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import groovelab from "./GrooveLabCoverPortfolio.png"
+import groovelab from "./tech/GLCover.jpg"
 import inventory from "./Inventory.png"
 import swift from "./tech/swift.png"
+//import docker from "./tech/docker.png"
+import docker1 from "./tech/docker1.png"
+import xcode from "./tech/xcode.png"
+import xrbootcamp from "./tech/xrbootcamp.jpg"
 
 export {
   logo,
@@ -119,4 +123,7 @@ export {
   groovelab,
   inventory,
   swift,
+  docker1,
+  xcode,
+  xrbootcamp,
 };
