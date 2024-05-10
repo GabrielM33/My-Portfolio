@@ -81,7 +81,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Swift Developer",
+    title: "Learning Swift",
     icon: web,
   },
 ];
@@ -94,7 +94,8 @@ const technologies = [
   {
     name: "Unity",
     icon: unity,
-  }, 
+  },
+  /* 
   {
     name: "Swift",
     icon: swift,
@@ -103,14 +104,17 @@ const technologies = [
     name: "Xcode",
     icon: xcode,
   },
+  */
   {
     name: "Python",
     icon: python,
   },
+  /*
   {
     name: "sql",
     icon: sql,
   },
+  */
   {
     name: "git",
     icon: git,
@@ -161,7 +165,7 @@ const experiences = [
     points: [
       "Attained proficiency in data preprocessing and a deep understanding of the data analysis life cycle."
     ],
-  }, */
+  },
   {
     title: "Tech for Everyone Certificate",
     company_name: "Sololearn",
@@ -231,20 +235,22 @@ const experiences = [
     company_name: "Unity",
     icon: unity,
     iconBg: "#FFFFFF",
-    date: "Nov 2023",
+    date: "Oct - Nov 2023",
     points: [
       "Worked on custom VR development, interaction, ergonomics and optimization.",
     ],
   },
   {
-    title: "XR Foundations & Prototyping Bootcamp",
+    title: "XR Foundations & Prototyping Bootcamp (High Honors)",
     //role: "Community Mentor"
     company_name: "XR Bootcamp",
     icon: xrbootcamp,
     iconBg: "#FFFFFF",
-    date: "Current",
+    date: "Feb - Jun 2024",
     points: [
       "Community Mentor.",
+      "Received full scholarship.",
+      "Worked with C#, Unity, Git, team projects, prototypes, MVPs, Meta Hackathon, and more.",
     ],
   },
 ];
