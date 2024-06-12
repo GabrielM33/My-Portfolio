@@ -174,9 +174,11 @@ const Works = () => {
             {projects4.map((project, index) => (
               <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
           ))}
+             {/*
              {projects5.map((project, index) => (
               <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
           ))}
+            */}
         </div>
       </>
     </>

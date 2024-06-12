@@ -587,6 +587,7 @@ const projects4 = [
     image: restart,
     source_code_link: "https://github.com/GabrielM33/Restart-App",
   },
+  /*
   {
     name: "Portfolio Website",
     description:
@@ -629,6 +630,7 @@ const projects4 = [
     image: hospital,
     source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
   },
+  */
 ];
 const projects5 = [
   {
@@ -695,4 +697,5 @@ const projects5 = [
     source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
   },
 ];
+
 export { services, technologies, experiences, testimonials, projects, projects2, projects3, projects4, projects5 };
