@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects, projects2, projects3 } from "../constants";
+import { projects, projects2, projects3, projects4, projects5 } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -168,9 +168,19 @@ const Works = () => {
           {projects2.map((project, index) => (
             <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
           ))}
+           {projects3.map((project, index) => (
+           <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
+          ))}
+            {projects4.map((project, index) => (
+              <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
+          ))}
+             {projects5.map((project, index) => (
+              <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
+          ))}
         </div>
       </>
     </>
+    
   );
 };
 

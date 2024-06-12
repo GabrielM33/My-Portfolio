@@ -565,5 +565,134 @@ const projects2 = [
         source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
       },
 ];
-
-export { services, technologies, experiences, testimonials, projects, projects2, projects3 };
+const projects4 = [
+  {
+    name: "Restart iOS App",
+    description:
+      "'Restart' is an elegantly crafted iOS app, developed using Swift, that showcases stunning animations and intuitive user interface design.",
+    tags: [
+      {
+        name: "animated",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appdevelopment",
+        color: "green-text-gradient",
+      },
+      {
+        name: "swift",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: restart,
+    source_code_link: "https://github.com/GabrielM33/Restart-App",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "This online portfolio is an immersive 3D experience. It's not just a portfolio; it's a virtual journey through my creative work, designed to captivate and engage visitors.",
+    tags: [
+      {
+        name: "three.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: website,
+    source_code_link: "https://github.com/GabrielM33/My-Portfolio",
+  },
+  {
+    name: "SQL Hospital Database",
+    description:
+    "This project provides a hands-on opportunity to practice essential SQL skills in the context of a hospital environment designed to mimic real-world scenarios.",
+    tags: [
+      {
+        name: "ddl",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dml",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hospital,
+    source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
+  },
+];
+const projects5 = [
+  {
+    name: "Restart iOS App",
+    description:
+      "'Restart' is an elegantly crafted iOS app, developed using Swift, that showcases stunning animations and intuitive user interface design.",
+    tags: [
+      {
+        name: "animated",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appdevelopment",
+        color: "green-text-gradient",
+      },
+      {
+        name: "swift",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: restart,
+    source_code_link: "https://github.com/GabrielM33/Restart-App",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "This online portfolio is an immersive 3D experience. It's not just a portfolio; it's a virtual journey through my creative work, designed to captivate and engage visitors.",
+    tags: [
+      {
+        name: "three.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: website,
+    source_code_link: "https://github.com/GabrielM33/My-Portfolio",
+  },
+  {
+    name: "SQL Hospital Database",
+    description:
+    "This project provides a hands-on opportunity to practice essential SQL skills in the context of a hospital environment designed to mimic real-world scenarios.",
+    tags: [
+      {
+        name: "ddl",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dml",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hospital,
+    source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
+  },
+];
+export { services, technologies, experiences, testimonials, projects, projects2, projects3, projects4, projects5 };
