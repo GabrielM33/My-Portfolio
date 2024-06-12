@@ -345,12 +345,12 @@ const projects = [
       ],
       image: inventory,
       source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
-  },
+  }
 ];
 
 const projects2 = [
     {
-      name: "Generative Adversarial Network (GAN) with MNIST Dataset",
+      name: "Generative Adversarial Network (GAN)",
       description:
         "This project demonstrates the exciting possibilities of Generative AI and its applications in various domains, including art, design, and others.",
       tags: [
@@ -371,7 +371,7 @@ const projects2 = [
       source_code_link: "https://github.com/GabrielM33/Generative-Adversarial-Network",
     },
     {
-      name: "Classification of Anomalies on Chest X-Ray Dataset",
+      name: "Classification of Anomalies on Chest X-Ray",
       description:
         "An innovative deep learning algorithm designed to identify anomalies in X-Rays to assist doctors in the early detection of potential cardiorespiratory diseases.",
       tags: [
@@ -434,6 +434,69 @@ const projects2 = [
       ],
       image: diabetes,
       source_code_link: "https://github.com/GabrielM33/Diabetes-Prediction-Model",
+    },
+    {
+      name: "Restart iOS App",
+      description:
+        "'Restart' is an elegantly crafted iOS app, developed using Swift, that showcases stunning animations and intuitive user interface design.",
+      tags: [
+        {
+          name: "animated",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "appdevelopment",
+          color: "green-text-gradient",
+        },
+        {
+          name: "swift",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: restart,
+      source_code_link: "https://github.com/GabrielM33/Restart-App",
+    },
+    {
+      name: "Portfolio Website",
+      description:
+        "This online portfolio is an immersive 3D experience. It's not just a portfolio; it's a virtual journey through my creative work, designed to captivate and engage visitors.",
+      tags: [
+        {
+          name: "three.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: website,
+      source_code_link: "https://github.com/GabrielM33/My-Portfolio",
+    },
+    {
+      name: "SQL Hospital Database",
+      description:
+      "This project provides a hands-on opportunity to practice essential SQL skills in the context of a hospital environment designed to mimic real-world scenarios.",
+      tags: [
+        {
+          name: "ddl",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "dml",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hospital,
+      source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
     }
   ];
 
@@ -500,7 +563,7 @@ const projects2 = [
         ],
         image: hospital,
         source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
-      }
+      },
 ];
 
 export { services, technologies, experiences, testimonials, projects, projects2, projects3 };
