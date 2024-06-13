@@ -59,6 +59,7 @@ import {
   bookshelf,
   tabletennis,
   coffeebrew,
+  crime,
 } 
 
 from "../assets";
@@ -412,8 +413,29 @@ const projects2 = [
           color: "pink-text-gradient",
         },
       ],
-      image: mnist,
+      image: crime,
       source_code_link: "https://github.com/lauramurinova/XRTrueCrime",
+    },
+    {
+      name: "Beat Saber Clone",
+      description:
+        "An innovative deep learning algorithm designed to identify anomalies in X-Rays to assist doctors in the early detection of potential cardiorespiratory diseases.",
+      tags: [
+        {
+          name: "xrinteractiontoolkit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: beatsaber,
+      source_code_link: "https://github.com/GabrielM33/Beat-Saber-Clone",
     },
     {
       name: "VR Room",
@@ -436,27 +458,7 @@ const projects2 = [
       image: room,
       source_code_link: "https://github.com/GabrielM33/VRRoom-XRInteractionToolkit",
     },
-    {
-      name: "Beat Saber Clone",
-      description:
-        "An innovative deep learning algorithm designed to identify anomalies in X-Rays to assist doctors in the early detection of potential cardiorespiratory diseases.",
-      tags: [
-        {
-          name: "tensorflow",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "deeplearning",
-          color: "green-text-gradient",
-        },
-        {
-          name: "python",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: beatsaber,
-      source_code_link: "https://github.com/GabrielM33/Beat-Saber-Clone",
-    },
+    
     /*
     {
       name: "Burned Calories Tracker",

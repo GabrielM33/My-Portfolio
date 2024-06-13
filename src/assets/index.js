@@ -67,7 +67,7 @@ import xrbootcamp from "./tech/xrbootcamp.jpg"
 import bookshelf from "./tech/Bookshelf.png"
 import tabletennis from "./tech/tabletennis.png"
 import coffeebrew from "./tech/coffebrew.png"
-
+import crime from "./tech/crime.jpg"
 
 export {
   logo,
@@ -133,4 +133,5 @@ export {
   bookshelf,
   tabletennis,
   coffeebrew,
+  crime,
 };
