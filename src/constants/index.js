@@ -57,6 +57,8 @@ import {
   xcode,
   xrbootcamp,
   bookshelf,
+  tabletennis,
+  coffeebrew,
 } 
 
 from "../assets";
@@ -351,7 +353,70 @@ const projects = [
 
 const projects2 = [
     {
-      name: "VR Room with XR Interaction Toolkit",
+      name: "Coffee Brewing",
+      description:
+        "A linear regression model designed to accurately calculate calorie expenditure during workouts, levaraging various metrics including time of workout, intensity and others. Its simplicity makes it a viable product for deployment.",
+      tags: [
+        {
+          name: "metasdk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: coffeebrew,
+      source_code_link: "https://github.com/GabrielM33/Coffee-Brewing",
+    },
+    {
+      name: "Real Table Tennis",
+      description:
+        "An innovative deep learning algorithm designed to identify anomalies in X-Rays to assist doctors in the early detection of potential cardiorespiratory diseases.",
+      tags: [
+        {
+          name: "metasdk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tabletennis,
+      source_code_link: "https://github.com/bankith/real-table-tennis-practice-public",
+    },
+    {
+      name: "XRTrueCrime",
+      description:
+        "This project demonstrates the exciting possibilities of Generative AI and its applications in various domains, including art, design, and others.",
+      tags: [
+        {
+          name: "metasdk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mnist,
+      source_code_link: "https://github.com/lauramurinova/XRTrueCrime",
+    },
+    {
+      name: "VR Room",
       description:
         "This online portfolio is an immersive 3D experience. It's not just a portfolio; it's a virtual journey through my creative work, designed to captivate and engage visitors.",
       tags: [
@@ -372,28 +437,7 @@ const projects2 = [
       source_code_link: "https://github.com/GabrielM33/VRRoom-XRInteractionToolkit",
     },
     {
-      name: "Generative Adversarial Network (GAN)",
-      description:
-        "This project demonstrates the exciting possibilities of Generative AI and its applications in various domains, including art, design, and others.",
-      tags: [
-        {
-          name: "pytorch",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "generativeai",
-          color: "green-text-gradient",
-        },
-        {
-          name: "python",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: mnist,
-      source_code_link: "https://github.com/GabrielM33/Generative-Adversarial-Network",
-    },
-    {
-      name: "Classification of Anomalies on Chest X-Ray",
+      name: "Beat Saber Clone",
       description:
         "An innovative deep learning algorithm designed to identify anomalies in X-Rays to assist doctors in the early detection of potential cardiorespiratory diseases.",
       tags: [
@@ -410,8 +454,8 @@ const projects2 = [
           color: "pink-text-gradient",
         },
       ],
-      image: xray,
-      source_code_link: "https://github.com/GabrielM33/Classification-of-Anomalies-on-Chest-X-Ray-Dataset",
+      image: beatsaber,
+      source_code_link: "https://github.com/GabrielM33/Beat-Saber-Clone",
     },
     /*
     {
@@ -435,7 +479,6 @@ const projects2 = [
       image: workout,
       source_code_link: "https://github.com/GabrielM33/Burned-Calories-Tracker",
     },
-    */
     {
       name: "Diabetes Prediction Model",
       description:

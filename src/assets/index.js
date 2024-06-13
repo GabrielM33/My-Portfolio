@@ -65,6 +65,9 @@ import docker1 from "./tech/docker1.png"
 import xcode from "./tech/xcode.png"
 import xrbootcamp from "./tech/xrbootcamp.jpg"
 import bookshelf from "./tech/Bookshelf.png"
+import tabletennis from "./tech/tabletennis.png"
+import coffeebrew from "./tech/coffebrew.png"
+
 
 export {
   logo,
@@ -128,4 +131,6 @@ export {
   xcode,
   xrbootcamp,
   bookshelf,
+  tabletennis,
+  coffeebrew,
 };
