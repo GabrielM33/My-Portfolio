@@ -168,13 +168,13 @@ const Works = () => {
           {projects2.map((project, index) => (
             <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
           ))}
+          {/*
            {projects3.map((project, index) => (
            <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
           ))}
             {projects4.map((project, index) => (
               <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
           ))}
-             {/*
              {projects5.map((project, index) => (
               <ProjectCard2 key={`project-${index}`} index={index} size="small" {...project} />
           ))}

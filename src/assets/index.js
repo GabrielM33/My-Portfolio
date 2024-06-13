@@ -64,6 +64,7 @@ import swift from "./tech/swift.png"
 import docker1 from "./tech/docker1.png"
 import xcode from "./tech/xcode.png"
 import xrbootcamp from "./tech/xrbootcamp.jpg"
+import bookshelf from "./tech/Bookshelf.png"
 
 export {
   logo,
@@ -126,4 +127,5 @@ export {
   docker1,
   xcode,
   xrbootcamp,
+  bookshelf,
 };

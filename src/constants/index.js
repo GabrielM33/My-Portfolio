@@ -56,6 +56,7 @@ import {
   docker1,
   xcode,
   xrbootcamp,
+  bookshelf,
 } 
 
 from "../assets";
@@ -284,6 +285,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "VerseTales",
+    description:
+    "Created for the Meta Presence Hackathon, VerseTales lets users dive into favorite books via AR or VR, with environments adapting to the narrative in VR mode.",
+    tags: [
+      {
+        name: "metasdk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "csharp",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bookshelf,
+    source_code_link: "https://github.com/GabrielM33/VerseTales",
+  },
+  {
     name: "GrooveLab",
     description:
       "Unleash your inner drummer in GrooveLab, the Mixed Reality app that lets you rock out to drumless tracks on a simulated kit, in your living room or a virtual wonderland.",
@@ -303,27 +325,6 @@ const projects = [
     ],
     image: groovelab,
     source_code_link: "https://github.com/GabrielM33/GrooveLab-MetaSDK",
-  },
-  {
-    name: "VR Room",
-    description:
-    "VR Room is a VR experience that transports you into an interactive living room. A world where you can leave reality and explore a digital realm with the comfort of home.",
-    tags: [
-      {
-        name: "xrinteractiontoolkit",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "unity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "csharp",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: room,
-    source_code_link: "https://github.com/GabrielM33/VRRoom-XRInteractionToolkit",
   },
   {
     name: "Inventory Prototype",
@@ -349,6 +350,27 @@ const projects = [
 ];
 
 const projects2 = [
+    {
+      name: "VR Room with XR Interaction Toolkit",
+      description:
+        "This online portfolio is an immersive 3D experience. It's not just a portfolio; it's a virtual journey through my creative work, designed to captivate and engage visitors.",
+      tags: [
+        {
+          name: "xrinteractiontoolkit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: room,
+      source_code_link: "https://github.com/GabrielM33/VRRoom-XRInteractionToolkit",
+    },
     {
       name: "Generative Adversarial Network (GAN)",
       description:
@@ -436,7 +458,7 @@ const projects2 = [
       source_code_link: "https://github.com/GabrielM33/Diabetes-Prediction-Model",
     },
     {
-      name: "Restart iOS App",
+      name: "Restart iOS App Prototype",
       description:
         "'Restart' is an elegantly crafted iOS app, developed using Swift, that showcases stunning animations and intuitive user interface design.",
       tags: [
@@ -456,27 +478,7 @@ const projects2 = [
       image: restart,
       source_code_link: "https://github.com/GabrielM33/Restart-App",
     },
-    {
-      name: "Portfolio Website",
-      description:
-        "This online portfolio is an immersive 3D experience. It's not just a portfolio; it's a virtual journey through my creative work, designed to captivate and engage visitors.",
-      tags: [
-        {
-          name: "three.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: website,
-      source_code_link: "https://github.com/GabrielM33/My-Portfolio",
-    },
+    /*
     {
       name: "SQL Hospital Database",
       description:
@@ -498,6 +500,7 @@ const projects2 = [
       image: hospital,
       source_code_link: "https://github.com/GabrielM33/HospitalDB-SQL",
     }
+    */
   ];
 
     const projects3 = [
@@ -522,6 +525,7 @@ const projects2 = [
         image: restart,
         source_code_link: "https://github.com/GabrielM33/Restart-App",
       },
+      {/*
       {
         name: "Portfolio Website",
         description:
@@ -543,6 +547,7 @@ const projects2 = [
         image: website,
         source_code_link: "https://github.com/GabrielM33/My-Portfolio",
       },
+      */},
       {
         name: "SQL Hospital Database",
         description:
