@@ -15,7 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
-  size, // Add the size prop
+  size,
 }) => {
   const cardWidth = size === "small" ? "sm:w-[240px]" : "sm:w-[360px]";
 
@@ -77,7 +77,7 @@ const ProjectCard2 = ({
   tags,
   image,
   source_code_link,
-  size, // Add the size prop
+  size,
 }) => {
   const cardWidth = size === "small" ? "sm:w-[205px]" : "sm:w-[360px]";
 
@@ -181,8 +181,7 @@ const Works = () => {
             */}
         </div>
       </>
-    </>
-    
+    </>   
   );
 };
 
