@@ -219,7 +219,7 @@ const projects = [
   {
     name: "XRTrueCrime",
     description:
-      "This project demonstrates the exciting possibilities of Generative AI and its applications in various domains, including art, design, and others.",
+      "An investigative game where players immerse themselves in a murder crime scene to find and analyze clues, piecing together the evidence to solve the case.",
     tags: [
       {
         name: "metasdk",
