@@ -59,6 +59,7 @@ import {
   tabletennis,
   coffeebrew,
   crime,
+  github1,
 } 
 
 from "../assets";
@@ -105,6 +106,19 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+];
+
+const social = [
+  {
+    name: "LinkedIn",
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/g-moraes"
+  },
+  {
+    name: "GitHub",
+    icon: github1,
+    url: "https://www.github.com/gabrielm33"
   },
 ];
 
@@ -503,4 +517,4 @@ const projects5 = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, projects2, projects3, projects4, projects5 };
+export { services, technologies, social, experiences, testimonials, projects, projects2, projects3, projects4, projects5 };

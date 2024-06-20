@@ -6,6 +6,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import github1 from "./github2.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -134,4 +135,5 @@ export {
   tabletennis,
   coffeebrew,
   crime,
+  github1,
 };

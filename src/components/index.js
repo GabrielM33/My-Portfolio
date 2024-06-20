@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
+import Social from './Social';
 import Experience from "./Experience";
 import Works from "./Works";
 //import Feedbacks from "./Feedbacks";
@@ -23,5 +24,6 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Social,
 };
