@@ -28,7 +28,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
-const ComputersCanvas = () => {
+const ModelCanvas3D = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -74,4 +74,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export default ModelCanvas3D;

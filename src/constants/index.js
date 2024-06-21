@@ -60,6 +60,7 @@ import {
   coffeebrew,
   crime,
   github1,
+  youtube,
 } 
 
 from "../assets";
@@ -122,7 +123,7 @@ const social = [
   },
   {
     name: "Youtube",
-    icon: docker,
+    icon: youtube,
     socialurl: "https://www.youtube.com/@gabriel8779/videos"
   },
 ];

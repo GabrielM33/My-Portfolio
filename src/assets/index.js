@@ -6,7 +6,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
-import github1 from "./github2.png";
+import github1 from "./tech/github-3.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -23,10 +23,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import c from "./tech/c.png";
+import c from "./tech/c-sharp.png";
 import jupyter from "./tech/jupyter.png";
-import python from "./tech/python.png";
-import unity from "./tech/unity.png";
+import python from "./python.png";
+import unity from "./tech/unity1.png";
 import griffith from "./tech/griffith.png";
 import uopeople from "./tech/uopeople.png";
 import sololearn from "./tech/sololearn.png";
@@ -39,7 +39,7 @@ import diabetes from "./tech/diabetes.png";
 import flappycat from "./tech/flappycat.png";
 import carchase from "./tech/carchase.png";
 import mnist from "./tech/mnist.png";
-import linkedin from "./tech/linkedin.png";
+import linkedin from "./tech/linkedin-3.png";
 import mylogo1 from "./mylogo1.png";
 import restart from "./tech/RestartCover1.png";
 import website from "./tech/Website.png";
@@ -69,6 +69,7 @@ import bookshelf from "./tech/Bookshelf.png"
 import tabletennis from "./tech/tabletennis.png"
 import coffeebrew from "./tech/coffebrew.png"
 import crime from "./tech/crime.jpg"
+import youtube from "./tech/youtube-3.png"
 
 export {
   logo,
@@ -136,4 +137,5 @@ export {
   coffeebrew,
   crime,
   github1,
+  youtube,
 };
