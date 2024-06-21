@@ -215,9 +215,9 @@ const projects = [
     source_code_link: "https://github.com/GabrielM33/VerseTales",
   },
   {
-    name: "Real Table Tennis",
+    name: "TrueCrime",
     description:
-      "Disclaimer: Repository cannot be made public due to copyrighted assets. This project is an XR table tennis game developed with a team of students from XR Bootcamp.",
+      "An investigative game where players immerse themselves in a murder crime scene to find and analyze clues, piecing together the evidence to solve the case.",
     tags: [
       {
         name: "metasdk",
@@ -232,33 +232,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tabletennis,
-    source_code_link: "https://github.com/GabrielM33/Real-Table-Tennis-Practice",
+    image: crime,
+    source_code_link: "https://github.com/lauramurinova/XRTrueCrime",
   },
-  {
-    name: "Inventory Prototype",
-      description:
-      "This project integrates iOS and VisionOS to create an inventory of items scanned with Object Capture. This inventory is then used to move real-life objects into spatial computing.",
-      tags: [
-        {
-          name: "visionos",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ios",
-          color: "green-text-gradient",
-        },
-        {
-          name: "swift",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: inventory,
-      source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
-  },
-];
-
-const projects2 = [
   {
     name: "GrooveLab",
     description:
@@ -280,6 +256,51 @@ const projects2 = [
     image: groovelab,
     source_code_link: "https://github.com/GabrielM33/GrooveLab-MetaSDK",
   },
+];
+
+const projects2 = [
+  {
+    name: "Inventory Prototype",
+    description:
+    "This project integrates iOS and VisionOS to create an inventory of items scanned with Object Capture. This inventory is then used to move real-life objects into spatial computing.",
+    tags: [
+      {
+        name: "visionos",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ios",
+        color: "green-text-gradient",
+      },
+      {
+        name: "swift",
+        color: "pink-text-gradient",
+       },
+    ],
+    image: inventory,
+    source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
+    },
+  {
+    name: "Real Table Tennis",
+    description:
+      "Disclaimer: Repository cannot be made public due to copyrighted assets. This project is an XR table tennis game developed with a team of students from XR Bootcamp.",
+    tags: [
+      {
+        name: "metasdk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "csharp",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tabletennis,
+    source_code_link: "https://github.com/GabrielM33/Real-Table-Tennis-Practice",
+  },
     {
       name: "Coffee Brewing",
       description:
@@ -300,27 +321,6 @@ const projects2 = [
       ],
       image: coffeebrew,
       source_code_link: "https://github.com/GabrielM33/Coffee-Brewing",
-    },
-    {
-      name: "XRTrueCrime",
-      description:
-        "An investigative game where players immerse themselves in a murder crime scene to find and analyze clues, piecing together the evidence to solve the case.",
-      tags: [
-        {
-          name: "metasdk",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "unity",
-          color: "green-text-gradient",
-        },
-        {
-          name: "csharp",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: crime,
-      source_code_link: "https://github.com/lauramurinova/XRTrueCrime",
     },
     {
       name: "Beat Saber Clone",

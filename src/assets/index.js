@@ -68,7 +68,7 @@ import xrbootcamp from "./tech/xrbootcamp.jpg"
 import bookshelf from "./tech/Bookshelf.png"
 import tabletennis from "./tech/tabletennis.png"
 import coffeebrew from "./tech/coffebrew.png"
-import crime from "./tech/crime.jpg"
+import crime from "./crimescene.png"
 import youtube from "./tech/youtube-3.png"
 
 export {
