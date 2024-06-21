@@ -113,12 +113,17 @@ const social = [
   {
     name: "LinkedIn",
     icon: linkedin,
-    url: "https://www.linkedin.com/in/g-moraes"
+    socialurl: "https://www.linkedin.com/in/g-moraes"
   },
   {
     name: "GitHub",
     icon: github1,
-    url: "https://www.github.com/gabrielm33"
+    socialurl: "https://www.github.com/gabrielm33"
+  },
+  {
+    name: "Youtube",
+    icon: docker,
+    socialurl: "https://www.youtube.com/@gabriel8779/videos"
   },
 ];
 
@@ -147,7 +152,6 @@ const experiences = [
   },
   {
     title: "XR Foundations & Prototyping Bootcamp (High Honors)",
-    //role: "Community Mentor"
     company_name: "XR Bootcamp",
     icon: xrbootcamp,
     iconBg: "#FFFFFF",
