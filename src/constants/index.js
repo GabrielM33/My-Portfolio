@@ -196,7 +196,7 @@ const projects = [
   {
     name: "VerseTales",
     description:
-    "Created for the Meta Presence Hackathon, VerseTales lets users dive into favorite books via AR or VR, with environments adapting to the narrative in VR mode.",
+    "Created for the Meta Presence Hackathon, VerseTales lets users dive into their favorite books via AR or VR, with environments adapting to the narrative in VR mode.",
     tags: [
       {
         name: "metasdk",
@@ -217,7 +217,7 @@ const projects = [
   {
     name: "Real Table Tennis",
     description:
-      "Disclaimer: Repository cannot be made public due to copyright issues. This project is a XR table tennis game developed with a team of students from XR Bootcamp.",
+      "Disclaimer: Repository cannot be made public due to copyrighted assets. This project is an XR table tennis game developed with a team of students from XR Bootcamp.",
     tags: [
       {
         name: "metasdk",
@@ -233,32 +233,8 @@ const projects = [
       },
     ],
     image: tabletennis,
-    source_code_link: "https://youtu.be/xYIOw1CK1-M?si=it9BKuz7qFONeZyV",
+    source_code_link: "https://github.com/GabrielM33/Real-Table-Tennis-Practice",
   },
-  {
-    name: "XRTrueCrime",
-    description:
-      "An investigative game where players immerse themselves in a murder crime scene to find and analyze clues, piecing together the evidence to solve the case.",
-    tags: [
-      {
-        name: "metasdk",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "unity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "csharp",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: crime,
-    source_code_link: "https://github.com/lauramurinova/XRTrueCrime",
-  },
-];
-
-const projects2 = [
   {
     name: "Inventory Prototype",
       description:
@@ -280,6 +256,9 @@ const projects2 = [
       image: inventory,
       source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
   },
+];
+
+const projects2 = [
   {
     name: "GrooveLab",
     description:
@@ -321,6 +300,27 @@ const projects2 = [
       ],
       image: coffeebrew,
       source_code_link: "https://github.com/GabrielM33/Coffee-Brewing",
+    },
+    {
+      name: "XRTrueCrime",
+      description:
+        "An investigative game where players immerse themselves in a murder crime scene to find and analyze clues, piecing together the evidence to solve the case.",
+      tags: [
+        {
+          name: "metasdk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crime,
+      source_code_link: "https://github.com/lauramurinova/XRTrueCrime",
     },
     {
       name: "Beat Saber Clone",

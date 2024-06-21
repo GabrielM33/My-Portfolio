@@ -158,7 +158,7 @@ const Works = () => {
       </div>
       <>
         <motion.div>
-          <h2 className={`mt-12 ${styles.sectionHeadText}`} style={{ fontSize: '40px' }}>More Projects.</h2>
+          <h2 className={`mt-12 ${styles.sectionHeadText}`} style={{ fontSize: '40px', marginBottom: '30px' }}>More Projects.</h2>
         </motion.div>
         <div className='mt-2 flex flex-wrap gap-7'>
           {projects2.map((project, index) => (
