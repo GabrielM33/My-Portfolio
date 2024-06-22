@@ -1,4 +1,3 @@
-// App.jsx
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Social } from "./components";
 
@@ -13,8 +12,10 @@ const App = () => {
         <StarsCanvas />
         <About />
         <Experience />
-        <Tech />
-        <Works />
+        <div className='hidden sm:block'>
+          <Tech />
+          <Works />
+        </div>
         <div className='social-contact-wrapper'>
           <Social />
           <div className='relative z-0'>
