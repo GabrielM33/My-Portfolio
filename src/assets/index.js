@@ -70,6 +70,7 @@ import tabletennis from "./tech/tabletennis.png"
 import coffeebrew from "./tech/coffebrew.png"
 import crime from "./crimescene.png"
 import youtube from "./tech/youtube-3.png"
+import blender from "./tech/blender2.png"
 
 export {
   logo,
@@ -138,4 +139,5 @@ export {
   crime,
   github1,
   youtube,
+  blender,
 };

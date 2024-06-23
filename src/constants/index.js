@@ -61,6 +61,7 @@ import {
   crime,
   github1,
   youtube,
+  blender,
 } 
 
 from "../assets";
@@ -100,6 +101,16 @@ const technologies = [
     name: "Unity",
     icon: unity,
   },
+  /*
+  {
+    name: "Blender",
+    icon: blender,
+  },
+  {
+    name: "swift",
+    icon: swift,
+  },
+  */
   {
     name: "Python",
     icon: python,
