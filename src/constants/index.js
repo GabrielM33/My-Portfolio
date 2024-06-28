@@ -244,12 +244,12 @@ const projects = [
       },
     ],
     image: crime,
-    source_code_link: "https://github.com/lauramurinova/XRTrueCrime",
+    source_code_link: "https://github.com/lauramurinova/XRTrueCrime-Public",
   },
   {
-    name: "GrooveLab",
+    name: "Real Table Tennis",
     description:
-      "Unleash your inner drummer in GrooveLab, the Mixed Reality app that lets you rock out to drumless tracks on a simulated kit, in your living room or a virtual wonderland.",
+      "An XR table tennis game developed by XR Bootcamp students. Users can learn, practice and improve their table tennis skills in a mixed reality environment.",
     tags: [
       {
         name: "metasdk",
@@ -264,13 +264,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: groovelab,
-    source_code_link: "https://github.com/GabrielM33/GrooveLab-MetaSDK",
+    image: tabletennis,
+    source_code_link: "https://github.com/GabrielM33/Real-Table-Tennis-Public",
   },
 ];
 
 const projects2 = [
-  {
+    {
+      name: "GrooveLab",
+      description:
+        "Unleash your inner drummer in GrooveLab, the Mixed Reality app that lets you rock out to drumless tracks on a simulated kit, in your living room or a virtual wonderland.",
+      tags: [
+        {
+          name: "metasdk",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "csharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: groovelab,
+      source_code_link: "https://github.com/GabrielM33/GrooveLab-MetaSDK",
+    },
+    {
     name: "Inventory Prototype",
     description:
     "This project integrates iOS and VisionOS to create an inventory of items scanned with Object Capture. This inventory is then used to move real-life objects into spatial computing.",
@@ -291,27 +312,7 @@ const projects2 = [
     image: inventory,
     source_code_link: "https://github.com/GabrielM33/Inventory-iOSVisionOS",
     },
-  {
-    name: "Real Table Tennis",
-    description:
-      "Disclaimer: Repository cannot be made public due to copyrighted assets. This project is an XR table tennis game developed with a team of students from XR Bootcamp.",
-    tags: [
-      {
-        name: "metasdk",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "unity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "csharp",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tabletennis,
-    source_code_link: "https://github.com/GabrielM33/Real-Table-Tennis-Practice",
-  },
+    
     {
       name: "Coffee Brewing",
       description:
